@@ -1,4 +1,5 @@
 import Types from "./curlybraces"
+import Eveent from "./event"
 import Apps from "./exp_imp"
 import { Login, Profile, User, UserKey } from "./UserComponent"
 
@@ -21,6 +22,8 @@ import { Login, Profile, User, UserKey } from "./UserComponent"
      <h1>{UserKey}</h1> 
      <hr></hr>
      <Types></Types>
+     <hr></hr>
+     <Eveent></Eveent>
       </>
     )
   }
