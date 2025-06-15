@@ -1,8 +1,10 @@
 import Types from "./curlybraces"
 import Eveent from "./event"
 import Apps from "./exp_imp"
+import Propps from "./prop"
+import Toggle from "./toggle"
 import { Login, Profile, User, UserKey } from "./UserComponent"
-
+import State from "./usestate"
  export function Comp(){
     return (
       <>
@@ -24,6 +26,13 @@ import { Login, Profile, User, UserKey } from "./UserComponent"
      <Types></Types>
      <hr></hr>
      <Eveent></Eveent>
+     <hr></hr>
+     <State></State>
+     <hr></hr>
+     <Toggle></Toggle>
+     <hr></hr>
+     <Propps></Propps>
+    
       </>
     )
   }
