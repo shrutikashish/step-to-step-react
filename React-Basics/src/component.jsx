@@ -1,8 +1,13 @@
+import Checkboxes from "./checkbox"
 import Types from "./curlybraces"
+import Userr from "./default"
 import Eveent from "./event"
 import Apps from "./exp_imp"
+import Input from "./MultipleInput"
 import Propps from "./prop"
+import Reuse from "./Reuse"
 import Toggle from "./toggle"
+import { MulCondition } from "./user"
 import { Login, Profile, User, UserKey } from "./UserComponent"
 import State from "./usestate"
  export function Comp(){
@@ -32,8 +37,14 @@ import State from "./usestate"
      <Toggle></Toggle>
      <hr></hr>
      <Propps></Propps>
-    
-      </>
+    <hr></hr>
+    <Userr></Userr>
+    <Input></Input>
+    <hr></hr>
+    <Checkboxes></Checkboxes>
+    <hr></hr>
+    <Reuse></Reuse>
+    </>
     )
   }
   

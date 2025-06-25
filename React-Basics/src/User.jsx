@@ -21,7 +21,6 @@ return(
         :count == 4 ? <h1>Condition4</h1>
         :count == 5 ? <h1>Condition5</h1>
         :<h1>No condition is here</h1>
-        
     }
     </>
 )
