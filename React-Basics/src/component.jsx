@@ -1,4 +1,5 @@
 import Checkboxes from "./checkbox"
+import Clock from "./clock"
 import Types from "./curlybraces"
 import Userr from "./default"
 import Eveent from "./event"
@@ -44,6 +45,8 @@ import State from "./usestate"
     <Checkboxes></Checkboxes>
     <hr></hr>
     <Reuse></Reuse>
+    <hr></hr>
+    <Clock></Clock>
     </>
     )
   }
