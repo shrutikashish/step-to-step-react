@@ -11,6 +11,7 @@ import Toggle from "./toggle"
 import { MulCondition } from "./user"
 import { Login, Profile, User, UserKey } from "./UserComponent"
 import State from "./usestate"
+import Effect from "./useEffect"
  export function Comp(){
     return (
       <>
@@ -47,6 +48,8 @@ import State from "./usestate"
     <Reuse></Reuse>
     <hr></hr>
     <Clock></Clock>
+    <hr></hr>
+    <Effect></Effect>
     </>
     )
   }

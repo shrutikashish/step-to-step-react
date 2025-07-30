@@ -17,10 +17,7 @@ function App() {
 )
 
 }
-function sum(){
-  return 10+60
 
-}
 
 
 
